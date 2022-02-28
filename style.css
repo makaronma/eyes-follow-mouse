@@ -14,7 +14,7 @@ body {
 }
 .face {
   background-color: rgb(177, 177, 177);
-  width: 1000px;
+  width: 500px;
   aspect-ratio: 32/26;
   border-radius: 100%;
   position: relative;
