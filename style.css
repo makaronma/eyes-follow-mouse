@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgb(16, 88, 118);
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+.face {
+  background-color: rgb(177, 177, 177);
+  width: 1000px;
+  aspect-ratio: 32/26;
+  border-radius: 100%;
+  position: relative;
+}
+.eye {
+  position: absolute;
+  border-radius: 100%;
+  /* transition: transform 0.3s; */
+}
+.outer-eye {
+  background-color: lightblue;
+  width: 16%;
+  aspect-ratio: 1;
+  top: 25%;
+}
+.outer-eye.left {
+  left: 25%;
+}
+.outer-eye.right {
+  right: 25%;
+}
+
+.mid-eye {
+  background-color: rgb(70, 70, 182);
+  width: 60%;
+  aspect-ratio: 1;
+}
+
+.inner-eye {
+  background-color: black;
+  width: 70%;
+  aspect-ratio: 1;
+}
